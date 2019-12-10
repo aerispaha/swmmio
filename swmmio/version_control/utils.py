@@ -82,6 +82,7 @@ def write_inp_section(file_object, allheaders, sectionheader, section_data, pad_
                                                         index_names=False,
                                                         header=True,
                                                         justify='left',
+                                                        index=False,
                                                         formatters=objectformatter#{'Comment':formatter}
                                                         )
 
